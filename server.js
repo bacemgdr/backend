@@ -4,7 +4,7 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors'); // Import the cors module
 const app = express();
 const db = require('./db');
-const PORT = process.env.PORT || 3000; // Set a default port if PORT is not defined in .env
+const PORT = process.env.PORT || 4000; // Set a default port if PORT is not defined in .env
 
 
 
